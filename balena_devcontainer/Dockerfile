@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y \
     libssl-dev \
     ca-certificates \
     openssh-server \
+    rsync \
     supervisor 
 
 # Configure SSH
