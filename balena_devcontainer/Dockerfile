@@ -7,8 +7,7 @@ RUN apt-get update && apt-get install -y \
     libssl-dev \
     ca-certificates \
     openssh-server \
-    supervisor \
-    && rm -rf /var/lib/apt/lists/*
+    supervisor 
 
 # Configure SSH
 RUN mkdir /var/run/sshd
