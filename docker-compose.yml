@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  balena_devcontainer:
+    build:
+      context: ./balena_devcontainer
+      dockerfile: Dockerfile
+    privileged: true
+    network_mode: host
